@@ -80,7 +80,7 @@ public class Play : MonoBehaviour
         else if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
             GetInputAndCheck(90);
-
+            Debug.Log("Test Git");
         }
         else if (Input.GetKeyDown(KeyCode.RightArrow))
         {
